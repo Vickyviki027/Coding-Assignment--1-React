@@ -1,0 +1,72 @@
+.list-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-sub-con{
+    display: flex;
+    flex-direction: row;    
+}
+@media screen and (max-width:576px){
+    .list-sub-con{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.time-accessed{
+font-family: "Roboto";
+font-size: 15px;
+color: #475569;
+margin-right: 20px;
+font-weight: 600;
+}
+.domain-logo{
+   height: 30px;
+   width: 30px;
+   margin: 10px;   
+}
+.title{
+font-family: "Roboto";
+font-size: 15px;
+color: #475569;
+font-weight: 600;
+padding-left: 10px;
+}
+.domain-url{
+font-family: "Roboto";
+font-size: 13px;
+color: #475569;
+margin-left: 10px;
+align-self: center;
+}
+.title-and-url{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width:576px){
+    .title-and-url{
+    display: flex;
+    flex-direction: column;
+}
+}
+.domain-logo-title{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width:576px){
+    .domain-logo-title{
+    display: flex;
+    flex-direction: row;
+    }    
+}
+.delete-icon{
+  height: 20px;
+  width: 20px;
+  /* align-self: flex-end; */
+  /* justify-content: flex-end; */
+}
+.delete-button{
+    background-color: transparent;
+border: none;
+}
